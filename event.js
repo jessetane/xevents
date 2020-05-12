@@ -9,7 +9,7 @@ try {
 
     // interface Event // https://dom.spec.whatwg.org/#event
     class Event {
-      constructor(type, opts = {
+      constructor (type, opts = {
         bubbles: false,
         cancelable: false,
         composed: false

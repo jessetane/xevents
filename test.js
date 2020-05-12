@@ -10,4 +10,3 @@ emitter.addEventListener('custom-event', e => {
 })
 var evt = new CustomEvent('custom-event', { detail: 42 })
 emitter.dispatchEvent(evt)
-

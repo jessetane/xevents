@@ -6,7 +6,7 @@ try {
   _ = (function () {
     // interface CustomEvent // https://dom.spec.whatwg.org/#customevent
     class CustomEvent extends Event {
-      constructor(type, opts = {
+      constructor (type, opts = {
         bubbles: false,
         cancelable: false,
         composed: false,
