@@ -1,0 +1,16 @@
+{
+  "name": "xevents",
+  "version": "1.0.0",
+  "description": "Use DOM events everywhere",
+  "type": "module",
+  "scripts": {
+    "test": "node test.js",
+    "test-browser": "app-server & xdg-open http://[::1]:8080; wait"
+  },
+  "devDependencies": {
+    "app-server": "git+https://github.com/jessetane/app-server.git#4.1.1",
+    "es-module-shims": "^0.4.6"
+  },
+  "repository": "https://github.com/jessetane/app-server",
+  "license": "MIT"
+}
