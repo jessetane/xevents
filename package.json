@@ -11,6 +11,6 @@
     "app-server": "git+https://github.com/jessetane/app-server.git#4.1.1",
     "es-module-shims": "^0.4.6"
   },
-  "repository": "https://github.com/jessetane/app-server",
+  "repository": "https://github.com/jessetane/xevents",
   "license": "MIT"
 }
