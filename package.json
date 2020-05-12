@@ -1,6 +1,6 @@
 {
   "name": "xevents",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use DOM events everywhere",
   "type": "module",
   "scripts": {
