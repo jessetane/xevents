@@ -2,9 +2,11 @@ try {
   var _ = Event
 } catch (err) {
   _ = (function () {
+    const now = process.hrtime()
+    const start = now[0] * 1000000 + now[1] / 1000
     const getTime = () => {
       const time = process.hrtime()
-      return time[0] * 1000000 + time[1] / 1000
+      return time[0] * 1000000 + time[1] / 1000 - start
     }
 
     // interface Event // https://dom.spec.whatwg.org/#event
